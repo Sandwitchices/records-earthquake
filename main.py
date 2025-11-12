@@ -5,7 +5,7 @@ from pathlib import Path
 import importlib.util
 import sys
 import os
-
+import pandas
 app = FastAPI(title="PHIVOLCS Earthquake Viewer", version="1.0.0")
 
 # Templates directory (create templates/earthquakes.html)
